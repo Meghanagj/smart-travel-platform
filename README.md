@@ -7,6 +7,53 @@ A responsive travel planning web application built using Next.js, React, TypeScr
 The Smart Travel Platform helps users discover travel destinations, view destination details, and plan personalized itineraries through a modern and responsive user interface.
 
 ---
+## Screenshots
+
+### Homepage
+
+![Homepage](screenshots/homepage.png)
+
+---
+
+### Login
+
+![Login](screenshots/login.png)
+
+---
+
+### Register
+
+![Register](screenshots/register.png)
+
+---
+
+### Forgot Password
+
+![Forgot Password](screenshots/forgot-password.png)
+
+---
+
+### Destinations
+
+![Destinations](screenshots/destinations.png)
+
+---
+
+### Destination Details
+
+![Destination Details](screenshots/destination-details.png)
+
+---
+
+### Itinerary Planner
+
+![Itinerary Planner](screenshots/itinerary.png)
+
+---
+
+### Mobile Responsive
+
+![Mobile Homepage](screenshots/mobile-homepage.png)
 
 ## Phase 1 Features
 
