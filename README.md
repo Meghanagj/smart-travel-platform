@@ -272,7 +272,7 @@ https://github.com/Meghanagj/smart-travel-platform
 Deployment Link (To be added after Vercel deployment)
 
 ```
-Coming Soon...
+https://smart-travel-platform-six.vercel.app
 ```
 
 ---
