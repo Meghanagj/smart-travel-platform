@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import BackButton from "../components/BackButton/BackButton";    
+import BackButton from "../components/BackButton/BackButton";   
 import { useState } from "react";
 
 // Expanded 6-destination dataset matching your dynamic page details

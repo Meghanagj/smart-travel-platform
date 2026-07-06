@@ -1,158 +1,176 @@
-# ✈️ Smart Travel Platform
+# ✈️ Smart Travel Planning Platform
 
-A modern and responsive travel planning web application built using **Next.js**, **React**, **TypeScript**, and **Tailwind CSS**. The platform enables users to discover destinations, explore travel details, and create personalized travel itineraries through an intuitive and user-friendly interface.
+A modern, responsive, and interactive travel planning web application built using **Next.js 15**, **React**, **TypeScript**, and **Tailwind CSS**. The platform enables users to discover destinations, check live weather, create travel itineraries, manage bookings, estimate budgets, and organize trips through an intuitive user interface.
 
 ---
 
 # 🌍 Project Overview
 
-The Smart Travel Platform helps users plan, organize, and manage their trips from a single platform. Users can search destinations, explore travel information, view estimated budgets, discover attractions, and create customized itineraries.
+Smart Travel Planning Platform is a complete travel management application that helps users plan trips from a single dashboard.
 
-This project was developed as part of a Front-End Development Internship using modern web technologies and responsive UI design principles.
+Users can:
 
----
+- Discover popular destinations
+- View destination details
+- Check live weather conditions
+- Create personalized itineraries
+- Estimate travel budgets
+- Manage bookings
+- Track travel information
+- Receive travel notifications
 
-# 🎯 Project Objective
-
-- Build a comprehensive travel planning platform
-- Create personalized itinerary management features
-- Develop destination discovery functionality
-- Design responsive and mobile-friendly interfaces
-- Deliver a production-ready frontend application
-- Prepare the foundation for weather, maps, and recommendation modules in Phase 2
-
----
-
-# 🎨 UI/UX Design
-
-The user interface was first designed using **Figma** before implementation.
-
-### Included Wireframes
-
-- Homepage
-- Login
-- Register
-- Forgot Password
-- Destination Search
-- Destination Details
-- Itinerary Planner
-- Mobile Responsive Screens
-
-📄 UI/UX Design PDF
-
-```
-design/Smart-Travel-Platform-Wireframes.pdf
-```
+The project was developed as part of a Front-End Development Internship using modern React and Next.js development practices.
 
 ---
 
-# 📸 Application Screenshots
+# 🎯 Project Objectives
 
-## Homepage
-
-![Homepage](screenshots/homepage.png)
-
----
-
-## Login
-
-![Login](screenshots/login.png)
-
----
-
-## Register
-
-![Register](screenshots/register.png)
+- Build a modern travel planning platform
+- Implement responsive UI for all devices
+- Create reusable React components
+- Implement dynamic routing using Next.js App Router
+- Integrate live weather information
+- Provide budget planning functionality
+- Implement booking management
+- Improve accessibility and performance
+- Deploy using Vercel
 
 ---
 
-## Forgot Password
+# ✨ Features
 
-![Forgot Password](screenshots/forgot-password.png)
-
----
-
-## Destinations
-
-![Destinations](screenshots/destinations.png)
-
----
-
-## Destination Details
-
-![Destination Details](screenshots/destination-details.png)
-
----
-
-## Itinerary Planner
-
-![Itinerary Planner](screenshots/itinerary.png)
-
----
-
-## Mobile Responsive
-
-![Mobile Homepage](screenshots/mobile-homepage.png)
-
----
-
-# 🚀 Phase 1 Features
-
-## Homepage
+## 🏠 Home Page
 
 - Responsive Navigation Bar
 - Hero Section
 - Popular Destinations
 - Travel Categories
 - Featured Recommendations
-- Responsive Footer
+- Footer
+- Responsive Design
 
 ---
 
-## Authentication Module
+## 🔐 Authentication
 
 - Login
 - Register
 - Forgot Password
-- Responsive Authentication Screens
+- Form Validation
+- Password Visibility Toggle
+- Toast Notifications
+- Loading States
 
 ---
 
-## Destination Discovery
+## 🌍 Destination Module
 
 - Destination Search
-- Destination Cards
 - Destination Categories
-- Responsive Grid Layout
-
----
-
-## Destination Details
-
-- Destination Overview
+- Dynamic Destination Details
+- Destination Cards
 - Estimated Budget
+- Travel Tips
 - Best Time to Visit
 - Attractions
 - Things To Do
-- Travel Tips
 
 ---
 
-## Itinerary Planner
+## 🌦 Weather Integration
 
-Users can:
+- Live Weather Information
+- Temperature
+- Humidity
+- Wind Speed
+- Weather Condition
+- Weather Icons
 
-- Select Destination
-- Choose Travel Dates
-- Enter Budget
-- Add Activities
-- Generate Trip Summary
+Powered by OpenWeather API.
 
 ---
 
-## Responsive Design
+## 🗺 Travel Planner
 
-Optimized for:
+- Personalized Itinerary Planner
+- Destination Selection
+- Budget Input
+- Travel Days
+- Activity Planning
+- Trip Summary
+
+---
+
+## 💰 Budget Planner
+
+- Budget Calculation
+- Expense Estimation
+- Hotel Cost
+- Food Cost
+- Transport Cost
+- Activity Cost
+- Remaining Budget
+- Budget Notifications
+
+---
+
+## ✈ Booking Management
+
+- Flight Information
+- Hotel Booking
+- Booking Status
+- Confirmation Status
+- Ticket Download
+- Booking Notifications
+
+---
+
+## 📊 Dashboard
+
+- Upcoming Trip
+- Weather Card
+- Saved Destinations
+- Travel Statistics
+- Quick Actions
+
+---
+
+## 🔔 Notification System
+
+- Success Notifications
+- Error Notifications
+- Warning Notifications
+- Budget Alerts
+- Booking Alerts
+
+Implemented using React Toastify.
+
+---
+
+## ♿ Accessibility Improvements
+
+- Semantic HTML
+- aria-label attributes
+- Keyboard Navigation
+- Focus Ring
+- Image Alt Text
+- Form Labels
+
+---
+
+## ⚡ Performance Optimizations
+
+- Next.js Image Optimization
+- Loading States
+- SEO Metadata
+- Dynamic Routing
+- Component Reusability
+
+---
+
+# 📱 Responsive Design
+
+Fully responsive for:
 
 - Desktop
 - Laptop
@@ -161,42 +179,74 @@ Optimized for:
 
 ---
 
-# 🛠️ Technologies Used
+# 🎨 UI/UX Design
 
-| Technology | Purpose |
-|------------|---------|
-| Next.js | Frontend Framework |
-| React.js | UI Library |
-| TypeScript | Programming Language |
-| Tailwind CSS | Styling |
-| CSS | Additional Styling |
-| Git | Version Control |
-| GitHub | Repository Hosting |
+Designed using **Figma** before implementation.
+
+### Wireframes Included
+
+- Home
+- Login
+- Register
+- Forgot Password
+- Dashboard
+- Destinations
+- Destination Details
+- Budget Planner
+- Booking Management
+- Itinerary Planner
+- Mobile Responsive Layouts
 
 ---
 
-# 📁 Project Structure
+# 🛠 Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| Next.js 15 | React Framework |
+| React | UI Library |
+| TypeScript | Programming Language |
+| Tailwind CSS | Styling |
+| React Toastify | Notifications |
+| Axios | API Requests |
+| OpenWeather API | Weather Data |
+| Google Maps | Location Navigation |
+| Git | Version Control |
+| GitHub | Repository |
+| Vercel | Deployment |
+
+---
+
+# 📂 Folder Structure
 
 ```text
-smart-travel-platform
+smart-travel-platform/
 │
-├── app
-│   ├── components
-│   ├── destinations
-│   ├── login
-│   ├── register
-│   ├── forgot-password
-│   ├── itinerary
-│   ├── globals.css
+├── app/
+│   ├── booking/
+│   ├── budget/
+│   ├── dashboard/
+│   ├── destinations/
+│   │   └── [id]/
+│   ├── forgot-password/
+│   ├── itinerary/
+│   ├── login/
+│   ├── register/
+│   ├── components/
+│   ├── loading.tsx
 │   ├── layout.tsx
-│   └── page.tsx
+│   ├── page.tsx
+│   └── globals.css
 │
-├── public
-│   ├── images
-│   └── screenshots
+├── data/
+│   └── destinations.ts
 │
-├── design
-│   └── Smart-Travel-Platform-Wireframes.pdf
+├── public/
+│   ├── images/
+│   └── screenshots/
+│
+├── design/
+│   └── Smart-Travel-UI-UX-Design.pdf
 │
 ├── README.md
 ├── package.json
@@ -206,7 +256,25 @@ smart-travel-platform
 
 ---
 
-# ⚙️ Installation
+# 📸 Screenshots
+
+- Home Page
+- Login
+- Register
+- Forgot Password
+- Dashboard
+- Destinations
+- Destination Details
+- Budget Planner
+- Booking Management
+- Itinerary Planner
+- Mobile View
+
+(Add screenshots inside the `public/screenshots` folder.)
+
+---
+
+# ⚙ Installation
 
 Clone the repository
 
@@ -214,7 +282,7 @@ Clone the repository
 git clone https://github.com/Meghanagj/smart-travel-platform.git
 ```
 
-Move into the project
+Go to the project folder
 
 ```bash
 cd smart-travel-platform
@@ -224,6 +292,12 @@ Install dependencies
 
 ```bash
 npm install
+```
+
+Create an environment file
+
+```env
+NEXT_PUBLIC_WEATHER_API_KEY=YOUR_OPENWEATHER_API_KEY
 ```
 
 Run the development server
@@ -240,40 +314,29 @@ http://localhost:3000
 
 ---
 
-# 📌 Future Enhancements (Phase 2)
+# 🌐 Live Demo
 
-The following features will be implemented during Phase 2:
-
-- 🌦️ Real-Time Weather Integration
-- 🗺️ Google Maps Integration
-- 📍 Nearby Attractions
-- 🤖 Personalized Destination Recommendations
-- 💰 Budget Planner
-- 📊 Travel Dashboard
-- ✈️ Booking Management
-- 🔔 Notifications & Alerts
-- ♿ Accessibility Improvements
-- ⚡ Performance Optimization
+https://smart-travel-platform-six.vercel.app
 
 ---
 
 # 📂 GitHub Repository
 
-Repository Link
-
-```
 https://github.com/Meghanagj/smart-travel-platform
-```
 
 ---
 
-# 🌐 Live Demo
+# 🚀 Future Improvements
 
-Deployment Link (To be added after Vercel deployment)
-
-```
-https://smart-travel-platform-six.vercel.app
-```
+- User Authentication Backend
+- Database Integration
+- Payment Gateway
+- AI Travel Recommendations
+- Multi-language Support
+- Dark Mode
+- Trip Sharing
+- Hotel & Flight APIs
+- Email Notifications
 
 ---
 
@@ -283,25 +346,29 @@ https://smart-travel-platform-six.vercel.app
 
 Computer Science & Engineering Graduate
 
-- GitHub: https://github.com/Meghanagj
+GitHub:
+
+https://github.com/Meghanagj
 
 ---
 
 # 📜 License
 
-This project was developed for internship and educational purposes only.
+This project was developed for educational and internship purposes.
 
 ---
 
 # 🙏 Acknowledgements
 
-This project was developed as part of a Front-End Development Internship to enhance practical skills in:
+This project was developed during a Front-End Development Internship to strengthen practical skills in:
 
-- React.js
 - Next.js
+- React
 - TypeScript
 - Tailwind CSS
 - Responsive Web Design
-- UI/UX Design
+- API Integration
 - Component-Based Architecture
+- Accessibility
+- Performance Optimization
 - Git & GitHub
